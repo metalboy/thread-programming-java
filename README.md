@@ -30,3 +30,21 @@ following:
 3) For each of the characters Bart, Homer, Margie and Lisa, print the most
 common word they use (from 5 characters and up) as well as how many times the
 used.
+
+#Question3
+
+We will use open APIs which give us information
+as a text and from them we will extract various statistics. Indicatively, you can
+use the following APIs, which generate plain text HTTP dialing
+GET method:
+https://loripsum.net/api/10/plaintext/
+
+For the job you need to develop a program in JAVA which will use 1,
+2, 4 or 8 threads to make a number of calls k per thread, to one of the
+above APIs (will be given parametrically) to calculate the following:
+1) the average length of the words in the text from all the texts produced. In every
+execution (k-calls on n-threads) will print a number.
+2) the percentage of appearances of the characters of the English alphabet from all the texts that
+were produced. In each execution (k-calls on n-threads) 26 numbers will be printed,
+whose sum will be 100.
+For both questions ignore punctuation.
