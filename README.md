@@ -1,7 +1,7 @@
 # thread-programming-java
 exercises about thread programming with java
 
-# exercise 1
+# Question1
 It is known from Linear Algebra that we can
 multiply a table by a vector from the right, as long as the number of its columns is sufficient
 array is equal to the number of rows of the vector.
