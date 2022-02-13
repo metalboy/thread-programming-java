@@ -48,3 +48,31 @@ execution (k-calls on n-threads) will print a number.
 were produced. In each execution (k-calls on n-threads) 26 numbers will be printed,
 whose sum will be 100.
 For both questions ignore punctuation.
+
+# Question4  (Semaphores)
+
+In this subproject we will deal with a problem that contains synchronization and
+mutual exclusion. We will simulate the operation of a sales store
+clothing. The operation of the store is based on the following rules that must
+implement:
+
+- The store can accommodate up to 40 people at a time.
+- There are two clothing testing areas, one for women, one for men and each
+rehearsal room has 5 separate rooms.
+- There is a cash register in the store but due to COVID restrictions it is not
+allows more than 10 people to be in line.
+
+Implement the above functionality using semantics assuming that
+percentage of women-men in the store is 50% -50%, considering the time
+Cashier's service is fixed once it is our turn to pay
+(eg, 5 seconds) and also assuming that each person needs 3 to 10
+seconds to try on clothes in the lab before going to the checkout. Also to
+Consider that every 2 to 5 seconds a new customer enters the store for
+to try and buy clothes 
+
+Note: you can change the above intervals to try them out
+system capabilities in less time. Just make sure it is checked
+functionality in all cases. For example, do we only allow 40 people in the store?
+Do we only allow 5 people in the women's lab?
+
+
