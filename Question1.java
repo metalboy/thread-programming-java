@@ -60,7 +60,7 @@ public class Question1 {
         int cut;    // With the variables cut and start we pass the piece
         int start;  // of the table we want to edit in the thread
 
-        // Constructor για την ProcessThread (creating the thread)
+        // Constructor for ProcessThread (creating the thread)
         public ProcessThread(int start, int cut){
             this.start = start;
             this.cut = cut;
@@ -107,7 +107,7 @@ public class Question1 {
             int finalStartPoint = startPoint;
             int finalCut = cut;
             threads[i] = new ProcessThread(finalStartPoint, finalCut);
-            //δημιούργησε Tread
+            //create a Tread
             startPoint += N / THREAD_COUNT; // change the limit for the next Loop
             cut += N / THREAD_COUNT;
         }
