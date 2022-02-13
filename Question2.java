@@ -137,7 +137,7 @@ public class Question2 {
         int count = 0; // Table top
         int size = list.size() / THREAD_COUNT; //Cutting point of the board
         for (int i = 0; i <THREAD_COUNT; i++){
-            //Για κάθε νήμα
+            //for each thread
             listForThreads.add(new ArrayList<>(list.subList(count, size)));
             //Put the sub-list in listForThreads
             //Below we set the beginning and the cutting point of the panel
@@ -200,8 +200,6 @@ public class Question2 {
                 } else {                                                    //Otherwise raise by 1
                     placeWithMostLyrics.put(line.get(columns[6]), placeWithMostLyrics.get(line.get(columns[6])) + 1);
                 }
-                // columns[6] = (τοποθεσία)
-
                 //*************************************
                 //We put the line on each character
                 //*************************************
