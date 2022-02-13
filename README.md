@@ -18,3 +18,15 @@ dimensions n x m where n is also a force of 2 and n> k, draw a solution that
 calculates the product A * v using the k threads in the best possible way. The
 Your program should "fill" table A and vector v with random numbers
 between 0 and 10
+
+# Question2
+
+You will need to write a program in JAVA that will initially load its lines
+file in a table, and then create k threads, each of which will
+undertakes the editing of a part of the table. The program will calculate the
+following:
+1) the episode in which the dialogues had the largest number of words
+2) the location where most of the verse tales took place
+3) For each of the characters Bart, Homer, Margie and Lisa, print the most
+common word they use (from 5 characters and up) as well as how many times the
+used.
