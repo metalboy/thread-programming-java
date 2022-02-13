@@ -100,7 +100,7 @@ public class Question3 {
             }
         }
 
-        //Μέθοδος για την ανάγνωσή του API
+        //Method for reading API
         private String loadDataFromUrl() {
             StringBuilder result = new StringBuilder();
             try {
@@ -120,7 +120,7 @@ public class Question3 {
         }
 
 
-        // getters για μεταβλητές τών Thread
+        // getters
         public HashMap<Character, Integer> getCharCount() {
             return charCount;
         }
