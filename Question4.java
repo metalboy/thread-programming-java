@@ -41,7 +41,7 @@ public class Question4 {
         System.out.println("\n\nElapsed Time in milli seconds: " + (end - start));
 
     }
-    //κλάση Customer για τη δημιουργία πελατών
+    //class Customer
     private class Customer implements Runnable{
 
         boolean gender;   //gender determination (women-men)
